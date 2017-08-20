@@ -16,6 +16,7 @@ val dbDependencies = Seq(
 )
 
 val akkaDependencies = Seq(
+  "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
   "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
   "io.igl" %% "jwt" % "1.2.2"
 )
